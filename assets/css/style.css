@@ -245,3 +245,22 @@ input[type=submit] {
     width: 100%;
   } 
  }
+ @media only screen and (max-width: 768px) {
+  nav {
+    width: 90%;
+  }
+ ​
+  footer {
+    width: 100%;
+  } 
+ }
+ @media only screen and (max-width: 640px) {
+  nav {
+    width: 90%;
+    /* margin-left: 5%; */
+  }
+ ​
+  footer {
+    width: 100%;
+  } 
+ }
